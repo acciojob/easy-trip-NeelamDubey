@@ -1,6 +1,9 @@
 package com.driver.model;
 
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+
 import java.util.Date;
+
 
 public class Flight {
 
