@@ -116,7 +116,7 @@ public class AirportController {
 
 
    // @GetMapping("/calculate-revenue-collected/{flightId}")
-    /*public int calculateRevenueOfAFlight(@PathVariable("flightId")Integer flightId){
+    public int calculateRevenueOfAFlight(@PathVariable("flightId")Integer flightId){
 
         //Calculate the total revenue that a flight could have
         //That is of all the passengers that have booked a flight till now and then calculate the revenue
@@ -124,7 +124,7 @@ public class AirportController {
 
 
         return 0;
-    }*/
+    }
 
 
     @PostMapping("/add-passenger")
